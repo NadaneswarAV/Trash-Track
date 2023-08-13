@@ -7,9 +7,12 @@ import Loged from './pages/loged';
 import UserForm from './pages/userform';
 import Submission from './pages/submission';
 import SubmittedPage from './pages/submittedpage';
-import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css'
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
-import '../node_modules/bootstrap/dist/js/bootstrap'
+//import '../node_modules/bootstrap-dark-5/dist/css/bootstrap-dark.min.css'
+//import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+//import '../node_modules/bootstrap/dist/js/bootstrap'
+import './bootstrap-dark.min.css'
+import './bootstrap.bundle'
+import './bootstrap'
 import {
   BrowserRouter as Router,
   Routes,
