@@ -1,0 +1,29 @@
+.submission {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .submission h2 {
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .submission p {
+    margin-bottom: 10px;
+  }
+  
+  .submission img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+  
+  .mark-done {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
