@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.static('public'));
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://nadaneswarav2002:3Mvwa7LAbkH6I1KE@cluster0.pbpdjhl.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://cluster0.pbpdjhl.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
